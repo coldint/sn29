@@ -6,5 +6,21 @@
       "desc": "claiming UID 0",
       "url": "https://x.taostats.io/extrinsic/3382073-0049"
     }
+  ],
+  "5FFApaS75bv5pJHfAp2FVLBj9ZaXuFDjEypsaBNc1wCfe52v": [
+    {
+      "block": 3436348,
+      "reward": 1.0,
+      "desc": "Validator testing",
+      "url": ""
+    }
+  ],
+  "5Hddm3iBFD2GLT5ik7LZnT3XJUnRnN8PoeCFgGQgawUVKNm8": [
+    {
+      "block": 3436348,
+      "reward": 1.0,
+      "desc": "Validator testing",
+      "url": ""
+    }
   ]
 }
