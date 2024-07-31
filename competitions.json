@@ -1,1 +1,23 @@
-{}
+{
+  "c00": {
+    "reward": 0.9,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["LlamaForCausalLM"],
+    "model_size": 16106127360,
+    "parameters": 7500000000,
+    "dataset": "fineweb2",
+    "tokenizer": "Xenova/gpt-4",
+    "pool_size": 6
+  },
+  "c01": {
+    "reward": 0.1,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["PhiForCausalLM", "Phi3ForCausalLM"],
+    "model_size": 16106127360,
+    "parameters": 3900000000,
+    "dataset": "fineweb2",
+    "pool_size": 6
+  }
+}
