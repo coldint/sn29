@@ -1,0 +1,23 @@
+{
+  "comment": "The model sizes/parameters increase with 50% to 10.5B. Freeing the tokenizer. Exact size to be discussed, should fit on 24Gb GPU.",
+  "c00": {
+    "reward": 0.5,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["LlamaForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "dataset": "fineweb2",
+    "pool_size": 6
+  },
+  "c01": {
+    "reward": 0.5,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["PhiForCausalLM", "Phi3ForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "dataset": "fineweb2",
+    "pool_size": 6
+  }
+}
