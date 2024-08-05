@@ -1,7 +1,8 @@
 # Subnet 29 dynamic configuration repository
 This repository functions as a dynamic configuration source for subnet 29 validators.
 It allows to inform all active validators in (near) real-time, without requiring an update
-and restart.
+and restart. The validator code and installation instructions can be found in the
+[coldint validator repo](https://github.com/coldint/coldint_validator).
 
 This has several use-cases:
 - Hall of Fame reward distribution
