@@ -1,17 +1,18 @@
 {
   "c00": {
-    "reward": 0.9,
+    "comment": "The number of parameters for c00 changes to 7B. The weight ratio changes to 75:25.",
+    "reward": 0.75,
     "advantage_initial": 0.004,
     "advantage_decay": 0.995,
     "model_types": ["LlamaForCausalLM"],
     "model_size": 16106127360,
-    "parameters": 7500000000,
+    "parameters": 7000000000,
     "dataset": "fineweb2",
     "tokenizer": "Xenova/gpt-4",
     "pool_size": 6
   },
   "c01": {
-    "reward": 0.1,
+    "reward": 0.25,
     "advantage_initial": 0.004,
     "advantage_decay": 0.995,
     "model_types": ["PhiForCausalLM", "Phi3ForCausalLM"],
