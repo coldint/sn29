@@ -1,7 +1,7 @@
 {
   "c00": {
-    "comment": "The number of parameters for c00 changes to 7B. The weight ratio changes to 75:25.",
-    "reward": 0.75,
+    "comment": "The number of parameters for c01 changes to 7B. The weight ratio changes to 50:50.",
+    "reward": 0.5,
     "advantage_initial": 0.004,
     "advantage_decay": 0.995,
     "model_types": ["LlamaForCausalLM"],
@@ -12,12 +12,12 @@
     "pool_size": 6
   },
   "c01": {
-    "reward": 0.25,
+    "reward": 0.5,
     "advantage_initial": 0.004,
     "advantage_decay": 0.995,
     "model_types": ["PhiForCausalLM", "Phi3ForCausalLM"],
     "model_size": 16106127360,
-    "parameters": 3900000000,
+    "parameters": 7000000000,
     "dataset": "fineweb2",
     "pool_size": 6
   }
