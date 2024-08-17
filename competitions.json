@@ -19,6 +19,7 @@
     "model_size": 16106127360,
     "parameters": 7000000000,
     "dataset": "fineweb2",
-    "pool_size": 6
+    "pool_size": 6,
+    "tokenizer": "coldint/phi3_stock_tokenizer"
   }
 }
