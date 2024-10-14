@@ -1,0 +1,30 @@
+{
+  "default":{
+    "comment": "Common config is now stored under default. group_samples, cap_sample_len, eval_pages and rows_per_page are set.",
+    "group_samples": 5,
+    "dataset": "fineweb2",
+    "pool_size": 6,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "max_sequence_len": 4096,
+    "eval_pages": 16,
+    "rows_per_page": 50,
+    "free_tokenizer": true
+  },
+  "c00": {
+    "reward": 0.5,
+    "model_types": ["LlamaForCausalLM","SlicedLlamaForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "cap_sample_len": 17500,
+    "tokenizer": "Xenova/gpt-4"
+  },
+  "c01": {
+    "reward": 0.5,
+    "model_types": ["PhiForCausalLM", "SlicedPhiForCausalLM", "Phi3ForCausalLM", "SlicedPhi3ForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "cap_sample_len": 15000,
+    "tokenizer": "coldint/phi3_stock_tokenizer"
+  }
+}
