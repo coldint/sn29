@@ -1,0 +1,29 @@
+{
+  "c00": {
+    "comment": "The number of parameters changes to 10.5B. Tokenizers are free to choose. Validators may use Sliced implementations to evaluate models.",
+    "reward": 0.5,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["LlamaForCausalLM","SlicedLlamaForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "dataset": "fineweb2",
+    "pool_size": 6,
+    "max_sequence_len": 4096,
+    "tokenizer": "Xenova/gpt-4",
+    "free_tokenizer": true
+  },
+  "c01": {
+    "reward": 0.5,
+    "advantage_initial": 0.004,
+    "advantage_decay": 0.995,
+    "model_types": ["PhiForCausalLM", "SlicedPhiForCausalLM", "Phi3ForCausalLM", "SlicedPhi3ForCausalLM"],
+    "model_size": 24159191040,
+    "parameters": 10500000000,
+    "dataset": "fineweb2",
+    "pool_size": 6,
+    "max_sequence_len": 4096,
+    "tokenizer": "coldint/phi3_stock_tokenizer",
+    "free_tokenizer": true
+  }
+}
