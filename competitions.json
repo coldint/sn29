@@ -1,7 +1,7 @@
 {
   "default":{
     "comment": "Increased parameter limits to 20.1B",
-    "group_samples": 5,
+    "group_samples": 10,
     "dataset": "fineweb2",
     "pool_size": 6,
     "advantage_initial": 0.004,
@@ -9,7 +9,8 @@
     "max_sequence_len": 4096,
     "eval_pages": 16,
     "rows_per_page": 50,
-    "free_tokenizer": true
+    "free_tokenizer": true,
+    "weight_skew_factor": 2.0
   },
   "c00": {
     "reward": 0.5,
