@@ -22,5 +22,13 @@
       "desc": "Validator testing",
       "url": ""
     }
+  ],
+  "5EXXXXXnvHbsa1JSWSseFm8evjALQoqMhxETWyk8moJkaPXH": [
+    {
+      "block": 5020713,
+      "reward": 1e9,
+      "desc": "Emission control",
+      "url": ""
+    }
   ]
 }
